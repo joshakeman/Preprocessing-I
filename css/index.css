@@ -216,12 +216,19 @@ strong {
   width: 100%;
 }
 .bottom h2 {
+  font-size: 3rem;
   padding: 20px 0;
   border-bottom: 1px solid black;
+}
+.bottom p {
+  line-height: 1.25;
+  font-size: 1.75rem;
+  padding: 10px 0;
 }
 .bottom .table {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 .bottom .table .column-1 {
   width: 12%;
@@ -237,6 +244,19 @@ strong {
 }
 .bottom .table .column-4 {
   width: 40%;
+}
+footer {
+  text-align: center;
+  padding: 10px 0 20px 0;
+  margin-bottom: 20px;
+  background-color: darkslategray;
+}
+footer p {
+  line-height: 1.25;
+  font-size: 1.5rem;
+  padding: 20px 0 40px 0;
+  text-align: center;
+  color: white;
 }
 .half-pg-block {
   margin: 20px 0;
