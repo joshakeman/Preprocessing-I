@@ -48,6 +48,20 @@ table {
 	border-spacing: 0;
 }
 
+//variable
+@footergray =  rgb(99, 99, 99);
+
+//Mix-ins
+.flex-display {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.p-font {
+	color: black;
+	font-size: 18px;
+	text-align: center;
+  }
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
@@ -70,12 +84,19 @@ strong {
 .container {
 	width: 1000px;
 	margin: 0px auto;
-}
+
 
 .menu-wrap {
-	display:flex;
+	.flex-display;
+	// display:flex;
+	// flex-wrap: wrap;
 	justify-content: flex-end;
 	padding: 20px;
+
+	@media( max-width: 515px ) {
+		flex-direction: column;
+		align-items: center;
+	  }
 
 	.main-menu {
 
@@ -196,7 +217,7 @@ footer {
 	text-align: center;
 	padding: 10px 0 20px 0;
 	margin-bottom: 20px;
-	background-color: rgb(99, 99, 99);
+	background-color: @footergray;
 
 	p {
 		line-height: 1.25;
