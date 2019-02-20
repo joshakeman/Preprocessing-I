@@ -54,6 +54,141 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	font-size: 62.5%; /* 10px base */
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-size: 2rem;
+  }
+
+strong {
+	font-weight: bold;
+}
+
+.container {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.menu-wrap {
+	display:flex;
+	justify-content: flex-end;
+	padding: 20px;
+
+	.main-menu {
+
+
+		a {
+			font-size: 2.2rem;
+			padding-left: 30px;
+			text-decoration: none;
+			color: black;
+		}
+	}
+}
+
+.hero {
+	padding: 40px 20px 80px 20px;
+	background-color: lightgray;
+	
+	img {
+		width:300px;
+		margin-bottom: 40px;
+	}
+
+	h1 {
+		font-size: 4rem;
+	}
+
+	h3 {
+		line-height: 1.25;
+		padding: 10px 0 15px;
+		margin-bottom: 10px;
+		border-bottom: 1px solid rgb(196, 196, 196); 
+	}
+
+	h4 {
+		padding: 10px 0;
+	}
+
+	.team-up-btn {
+		font-size: 2.5 rem;
+		padding: 10px 30px;
+		background-color: gray;
+		color: white;
+		border-radius: 5px;
+	}
+}
+
+.middle {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	h2 {
+		font-size: 3rem;
+		padding: 10px 0;
+	}
+
+	p {
+		line-height: 1.25;
+		font-size: 1.75rem;
+		padding: 10px 0;
+	}
+
+	.talent-list {
+		border: 1px solid black;
+		border-bottom: none;
+
+		li {
+			font-size: 1.75rem;
+			padding: 20px;
+			border-bottom: 1px solid black;
+		}
+	}
+}
+
+.bottom {
+	width: 100%;
+	h2 {
+		padding: 20px 0;
+		border-bottom: 1px solid black;
+	}
+
+	.table {
+		display: flex;
+		flex-wrap: wrap;
+
+		.column-1 {
+			width: 12%;
+			
+			p {
+				padding-left: 20px;
+			}
+		}
+
+		.column-2 {
+			width: 18%;
+		}
+
+		.column-3 {
+			width: 30%;
+		}
+
+		.column-4 {
+			width: 40%;
+		}
+	}
+}
+
+.half-pg-block {
+	margin: 20px 0;
+	width: 48%;
+}
+
+.gray {
+	background-color: rgb(182, 182, 182);
 }
 
