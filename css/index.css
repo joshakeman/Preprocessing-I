@@ -249,7 +249,7 @@ footer {
   text-align: center;
   padding: 10px 0 20px 0;
   margin-bottom: 20px;
-  background-color: darkslategray;
+  background-color: #636363;
 }
 footer p {
   line-height: 1.25;
@@ -263,5 +263,5 @@ footer p {
   width: 48%;
 }
 .gray {
-  background-color: #b6b6b6;
+  background-color: lightgray;
 }
