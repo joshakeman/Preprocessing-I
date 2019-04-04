@@ -1,1 +1,267 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+  /* 10px base */
+  font-family: 'Titillium Web', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 2rem;
+}
+strong {
+  font-weight: bold;
+}
+.container {
+  width: 1000px;
+  margin: 0px auto;
+}
+.menu-wrap {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.menu-wrap .main-menu a {
+  font-size: 2.2rem;
+  padding-left: 30px;
+  text-decoration: none;
+  color: black;
+}
+.hero {
+  padding: 40px 20px 80px 20px;
+  background-color: lightgray;
+}
+.hero img {
+  width: 300px;
+  margin-bottom: 40px;
+}
+.hero h1 {
+  font-size: 4rem;
+}
+.hero h3 {
+  line-height: 1.25;
+  padding: 10px 0 15px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #c4c4c4;
+}
+.hero h4 {
+  padding: 10px 0;
+}
+.hero .team-up-btn {
+  font-size: 2.5 rem;
+  padding: 10px 30px;
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+}
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.middle h2 {
+  font-size: 3rem;
+  padding: 10px 0;
+}
+.middle p {
+  line-height: 1.25;
+  font-size: 1.75rem;
+  padding: 10px 0;
+}
+.middle .talent-list {
+  border: 1px solid black;
+  border-bottom: none;
+}
+.middle .talent-list li {
+  font-size: 1.75rem;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.bottom {
+  width: 100%;
+}
+.bottom h2 {
+  font-size: 3rem;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+.bottom p {
+  line-height: 1.25;
+  font-size: 1.75rem;
+  padding: 10px 0;
+}
+.bottom .table {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.bottom .table .column-1 {
+  width: 12%;
+}
+.bottom .table .column-1 p {
+  padding-left: 20px;
+}
+.bottom .table .column-2 {
+  width: 18%;
+}
+.bottom .table .column-3 {
+  width: 30%;
+}
+.bottom .table .column-4 {
+  width: 40%;
+}
+footer {
+  text-align: center;
+  padding: 10px 0 20px 0;
+  margin-bottom: 20px;
+  background-color: #636363;
+}
+footer p {
+  line-height: 1.25;
+  font-size: 1.5rem;
+  padding: 20px 0 40px 0;
+  text-align: center;
+  color: white;
+}
+.half-pg-block {
+  margin: 20px 0;
+  width: 48%;
+}
+.gray {
+  background-color: lightgray;
+}
